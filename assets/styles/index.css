@@ -46,7 +46,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color:#F6F6F6;
-    
+    justify-content: space-evenly;
     padding-top: 109px;
     margin: 0;
     
@@ -58,6 +58,7 @@
     height: 505px;
     text-align: center;
     align-items: center;
+    margin: 0 15px 119px 15px;
 }
 .card-curso-index img {
     width: 288px;
@@ -154,12 +155,12 @@
 .mais-conteudo-index h2{
     color: #009688;
     margin: 0 auto 78px 120px;
-    border: solid;
+    
 }
 
 .conteudos-index {
     display: flex;
-    flex-wrap: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 100px;
 
@@ -183,10 +184,10 @@
 .conteudos-button {
     display: flex;
     justify-content: center;
+    margin: auto;
+    width: 280px;
     border: 1px solid #FF4081;
     border-radius: 62px;
-    padding: 10px 50px;
-    margin: 0 570px 0 570px;
 }
 
 .conteudos-button a {
@@ -194,6 +195,7 @@
     font-weight: 400;
     font-size: 20px;
     color:#FF4081;
+    padding: 10px 0px;
 }
 
 
@@ -204,7 +206,7 @@
     color: #009688;
 }
 
-@media screen and (max-width: 769px) {  
+@media screen and (max-width: 1215px) {  
     .index-banner {
         background-image: none;
 
@@ -213,10 +215,23 @@
     .links-cursos-index {
         justify-content: center;
     }
+}
+@media screen and (max-width: 769px) {  
+    
+    .index-banner h1{
+        text-align: center;
+    margin: 125px auto 19px auto;
+    }
+    .index-banner p{
+    margin: 0 auto 39px auto;
+    }
+    .index-banner a{
+    margin: 0 auto 200px auto;
+    }
 
     .mais-conteudo-index h2{
         color: #009688;
-        margin: 0 auto 78px 200px;
+        margin: 0 auto 78px 23%;
     }
 
     .card-conteudos-index {
@@ -232,11 +247,11 @@
     }
 
     .conteudos-button {
-        align-items: center;
+        margin: -80px auto 50px auto;
     }
 
     .conteudos-button a {
-        padding: 0 30px;
+        padding: 10px 30px;
     }
     
     .card-conteudos-index{
@@ -284,6 +299,6 @@
     }
 
     .conteudos-button {
-        margin: 0 60px
+        margin: auto;
     }
 }
