@@ -1,0 +1,66 @@
+.area-postagem{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 228px auto 111px auto;
+    width: 1232px;
+    
+}
+
+section h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+    margin: 0;
+}
+
+.data{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9D9D9D;
+    margin: 12px 0 74px 0;
+    text-align: center;
+}
+
+section img{
+    width: 1232px;
+    margin-bottom: 64px;
+}
+
+section h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    color: #009688;
+    margin-top: 80px;
+    text-align: start;
+
+}
+section p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: justify;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+article h3{
+    text-align: center;
+    margin-bottom: 101px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+}
+.area-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
