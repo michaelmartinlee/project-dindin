@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: space-evenly;
     margin: 228px auto 111px auto;
     width: 1232px;
     
@@ -62,5 +63,41 @@ article h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 1250px){
+    .area-postagem{
+        width: auto;
+    }
+    section img{
+        width: auto;
+    }
+    section h2{
+        margin: 80px 20px 25px 20px;
+    }
+    section p{
+        margin: 18px 20px;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    section img{
+        width: 259px;
+        height: 130px;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    article h3{
+        width: 330px;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .area-cards{
+        width: 350px;
+        margin-left: 5px;
+    }
 
 }

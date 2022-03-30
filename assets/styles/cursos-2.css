@@ -82,7 +82,7 @@ section p{
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 560px){
     .resumo-curso h1 {
         width: auto;
     }
@@ -91,9 +91,7 @@ section p{
         margin: 20px 40px 20px 0;
     }
     section video{
-        width: 300px;
-        height: 169px;
-        margin: auto
+        display: none;
     }
     section p{
         width: auto;
