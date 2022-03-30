@@ -90,16 +90,22 @@ footer{
 }
 
 @media screen and (max-width: 582px){
-.card-cursos img {
-    width: auto;
+    .titulo-principal{
+        margin: 82px 20px;
+    }
+    .titulo-principal h1{
+        text-align: center;
+    }
+    .titulo-principal p{
+        text-align: center;
+    }
+    .card-cursos img {
+      width: auto;
     
 }
-
-
-.card-cursos{
+    .card-cursos{
     width: auto;
     margin: 90px 30px 90px 0;
 
 }
-
 }
