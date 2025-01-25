@@ -1,14 +1,5 @@
-# Projeto Hands On - Gama Academy xp42
+# Hands On Project - Gama Academy xp42
 
- >* A Gama preparou um  desaﬁo para  que  seja  possível 
-    colocar em prática muito do que foi visto, e que 
-    ainda irá ver, ao longo dos módulos gravados e 
-    aulas ao vivo. A ideia é praticar bastante, para que 
-    os novos conceitos ﬁquem cada vez mais naturais 
-    e  quando  chegar  a  hora  de  praticar  em  um 
-    produto real, pareça fácil!
+>* Gama prepared a challenge to allow you to put into practice much of what has been learned, and what will still be learned, throughout the recorded modules and live classes. The idea is to practice a lot so that the new concepts become more natural, and when the time comes to work on a real product, it feels easy!
 
->* A empresa ﬁctícia DINDIN, quer lançar uma plataforma de conteúdo sobre Educação Financeira e você foi 
-    contratado como dev para criar essa plataforma.
-    Já temos o layout pronto de todas as páginas, mas precisamos que você desenvolva o site com HTML e 
-    CSS.
+>* The fictional company DINDIN wants to launch a content platform about Financial Education, and you have been hired as a developer to create this platform. We already have the layout ready for all the pages, but we need you to develop the site using HTML and CSS.
